@@ -42,7 +42,7 @@ Source: Open Psychometrics (https://openpsychometrics.org/)
 
 ## Methodology
 
-### Pipeline Steps
+### Steps
 
 1. Data Loading: Load DASS-21 dataset with flexible separator handling
 2. Target Creation: Binary classification using median split (cutoff = 34.0)
@@ -83,17 +83,6 @@ Five classification algorithms were evaluated:
 - ROC-AUC: 0.971
 - F1-Score: 0.911
 
-
-
-### Run the Pipeline
-```bash
-python DASS21_ML_Pipeline_FINAL.py
-```
-
-### Google Colab / Jupyter Notebook
-Upload DASS_21_dataset.csv to your environment and run DASS21_ML_Pipeline_Notebook.ipynb
-
-#
 
 ## Key Findings
 
